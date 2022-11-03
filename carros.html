@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wilson Automóveis</title>
+  <link rel="stylesheet" href="../css/global/style.css">
+</head>
+
+
+<body>
+  <main>
+    <section>
+      <div class="container-carro">
+        <ul class="carros-galeria">
+          <!-- Images used to open the lightbox -->
+          <div class="row">
+            <div class="album-carro-principal">
+              <img src="../carro1/foto-carro1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="album-carro-fotos">
+              <img src="../carro1/foto-carro1.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="album-carro-fotos">
+              <img src="../carro1/foto-carro1.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="album-carro-fotos">
+              <img src="../carro1/foto-carro1.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+          </div>
+
+          <!-- The Modal/Lightbox -->
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+              <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="../carro1/foto-carro1.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="../carro1/foto-carro2.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="../carro1/foto-carro3.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="../carro1/foto-carro4.png" style="width:100%">
+              </div>
+
+              <!-- Next/previous controls -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <!-- Caption text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+
+              <!-- Thumbnail image controls -->
+              <div class="column">
+                <img class="demo" src="../carro1/foto-carro1.png" onclick="currentSlide(1)" alt="">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="../carro1/foto-carro2.png" onclick="currentSlide(2)" alt="">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="../carro1/foto-carro3.png" onclick="currentSlide(3)" alt="">
+              </div>
+
+              <div class="column">
+                <img class="demo" src="../carro1/foto-carro4.png" onclick="currentSlide(4)" alt="">
+              </div>
+            </div>
+          </div>
+        </ul>
+        <div class="descricao-carro">
+          <span>Volkswagen</span>
+          <h1>VOLKSWAGEN GOL – 2021 – VERMELHO</h1>
+          <span>1.0L MB4</span>
+          <h2 class="preco">R$ 60.900,00</h2>
+          <ul>
+            <li>
+              <strong>Ano Fabricação:</strong>2020
+            </li>
+            <li>
+              <strong>Ano Modelo:</strong>2021
+            </li>
+            <li>
+              <strong>Combustível:</strong>Gasolina e Álcool
+            </li>
+            <li>
+              <strong>KM:</strong>46613
+            </li>
+            <li>
+              <strong>Cor:</strong>Vermelho
+            </li>
+            <li>
+              <strong>Portas:</strong>5
+            </li>
+            <li>
+              <strong>Câmbio:</strong>Manual
+            </li>
+            <h3>Opcionais</h3>
+          </ul>
+          <p>Air bag motorista, Ar condicionado, Rádio, Travas elétricas, Vidros elétricos.</p>
+          <h3>Observação</h3>
+          <p>-ENTRADA A PARTIR DE R$ MIL REAIS! -PRIMEIRA PARCELA PARA ATÉ 120 DIAS -PARCELE SUA ENTRADA NO CARTÃO -PARCELE O CARRO EM ATÉ 60 MESES -PODENDO LEVAR KIT GNV E TANQUE CHEIO! CÓDIGO: 38A23</p>
+          <a class="botao" href="">Entre em Contato</a>
+        </div>
+      </div>
+    </section>
+    <section class="container-carros-baixo">
+      <div class="sub-titulo-carros">
+        <h1>Mais veículos</h1>
+        <span>#CarrosWilsonAutomóveis</span>
+      </div>
+      <div class="anuncios-carros">
+        <img src="../carro1/foto-carro5.png" alt="">
+        <span>Peugeot</span>
+        <h1>PEUGEOT 208 - 20170 - BRANCO</h1>
+        <p>Unidade Vila Valqueire</p>
+        <h2 class="preco">R$ 50.500,00</h2>
+      </div>
+      <div class="anuncios-carros">
+        <img src="../carro1/foto-carro2.png" alt="">
+        <span>Peugeot</span>
+        <h1>PEUGEOT 208 - 20170 - BRANCO</h1>
+        <p>Unidade Vila Valqueire</p>
+        <h2 class="preco">R$ 50.500,00</h2>
+      </div>
+      <div class="anuncios-carros">
+        <img src="../carro1/foto-carro6.png" alt="">
+        <span>Peugeot</span>
+        <h1>PEUGEOT 208 - 20170 - BRANCO</h1>
+        <p>Unidade Vila Valqueire</p>
+        <h2 class="preco">R$ 50.500,00</h2>
+      </div>
+      <div class="anuncios-carros">
+        <img src="../carro1/foto-carro7.png" alt="">
+        <span>Peugeot</span>
+        <h1>PEUGEOT 208 - 20170 - BRANCO</h1>
+        <p>Unidade Vila Valqueire</p>
+        <h2 class="preco">R$ 50.500,00</h2>
+      </div>
+    </section>
+  </main>
+  <script src="./javascript/carrosalbum.js"></script>
+</body>
+
+
+</html>
