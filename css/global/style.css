@@ -1,0 +1,12 @@
+/*Global/resetgeral*/
+@import "./resetgeral.css";
+
+/*Carros*/
+@import "/wilsonautomoveis.io/css/carro.css";
+
+/*Utilidades*/
+@import "/wilsonautomoveis.io/css/utilidades/cores.css"; /*Cores*/
+
+@import "/wilsonautomoveis.io/css/utilidades/tipografia.css"; /*Tipografia*/
+
+@import "/wilsonautomoveis.io/css/utilidades/classes.css"; /*classes*/

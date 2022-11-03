@@ -1,0 +1,19 @@
+.botao {
+  padding: 15px;
+  border: none;
+  background: var(--cor-v10);
+  border-radius: 20px;
+  color: var(--cor-v1);
+  cursor: pointer;
+  text-align: center;
+}
+
+.botao:hover {
+  transform: scale(1.07);
+  transition: all 0.3s;
+}
+.preco {
+  font-size: 32px;
+  font-weight: 600;
+  color: #00a650;
+}
