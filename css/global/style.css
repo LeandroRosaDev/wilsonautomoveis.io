@@ -1,6 +1,9 @@
 /*Global/resetgeral*/
 @import "./resetgeral.css";
 
+/* Home */
+@import "/wilsonautomoveis.io/css/home.css";
+
 /*Carros*/
 @import "/wilsonautomoveis.io/css/carro.css";
 

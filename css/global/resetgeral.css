@@ -90,6 +90,6 @@ li {
   list-style: none;
   color: var(--cor-v2);
 }
-* {
+/* * {
   max-width: 1370px;
-}
+} */
