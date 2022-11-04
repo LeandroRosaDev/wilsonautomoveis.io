@@ -15,5 +15,48 @@
 .preco {
   font-size: 32px;
   font-weight: 600;
-  color: #00a650;
+  color: #a60000b2;
+}
+.btn {
+  color: rgb(218, 0, 0);
+  transition: all 0.3s;
+  position: relative;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(235, 0, 0, 0.5);
+  border-bottom-color: rgba(221, 0, 0, 0.5);
+  transform: scale(0.1, 1);
+}
+.btn:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0.068);
+  border-radius: 20px;
+}
+.btn:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
 }
