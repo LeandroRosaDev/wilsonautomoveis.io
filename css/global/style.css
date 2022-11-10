@@ -7,9 +7,16 @@
 /*Carros*/
 @import "/css/carro.css";
 
+/* Sobre */
+@import "/css/sobre.css";
+
 /*Utilidades*/
-@import "/css/utilidades/cores.css"; /*Cores*/
 
-@import "/css/utilidades/tipografia.css"; /*Tipografia*/
+/*Cores*/
+@import "/css/utilidades/cores.css";
 
-@import "/css/utilidades/classes.css"; /*classes*/
+/*Tipografia*/
+@import "/css/utilidades/tipografia.css";
+
+/*classes*/
+@import "/css/utilidades/classes.css";

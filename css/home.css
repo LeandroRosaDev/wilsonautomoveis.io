@@ -1,11 +1,13 @@
 .container-home {
+  display: grid;
+  justify-content: center;
+  max-width: 100%;
   background-color: var(--cor-v1);
 }
 
 .container-carros-home {
-  max-width: 1370px;
+  max-width: 1280px;
   padding: 50px;
-  margin-left: 15%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -23,9 +25,10 @@
 
 .carros-home {
   max-width: 263px;
-  height: 410px;
+  max-height: 410px;
   margin: 15px;
   background-color: var(--cor-v0);
+  border-radius: 5px;
 }
 
 .carros-home span,
@@ -41,12 +44,13 @@ p {
 .carros-home img {
   width: 263px;
   height: 202px;
+  border-radius: 5px 5px 0 0;
 }
 
 .botao-home {
   display: grid;
   width: max-content;
-  margin-left: 47%;
+  margin: 0% auto;
   padding-bottom: 5%;
 }
 
@@ -56,4 +60,28 @@ p {
   padding: 18px 70px;
   font-size: 11px;
   border-radius: 5px;
+}
+
+@media (max-width: 1250px) {
+  .container-carros-home {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .container-carros-home {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 780px) {
+  .container-carros-home {
+    padding: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .container-carros-home {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
 }
