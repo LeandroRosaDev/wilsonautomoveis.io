@@ -1,0 +1,38 @@
+.container-contato {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+.container-contato-gps {
+  max-width: 1366px;
+  border-top: 2px solid #9725258e;
+  margin-top: 55px;
+  margin: 0 auto;
+}
+.ajuda-contato {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 0;
+  color: #8383838e;
+}
+.entre-contato {
+  text-align: center;
+  color: #9725258e;
+}
+.horario-contato {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #9725258e;
+}
+.rede-social-contato {
+  max-width: 800px;
+  gap: 30px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.links-contato {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

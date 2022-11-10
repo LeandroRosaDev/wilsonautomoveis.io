@@ -1,9 +1,14 @@
+.bg-container-carro {
+  background-color: var(--cor-v1);
+  display: flex;
+  justify-content: center;
+}
 .container-carro {
   display: flex;
+  flex-wrap: wrap;
   height: 800px;
-  justify-content: center;
-  background-color: var(--cor-v1);
   padding: 20px;
+  max-width: 1370px;
 }
 .carros-galeria img {
   max-width: 70%;

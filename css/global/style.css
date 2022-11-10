@@ -2,11 +2,13 @@
 @import "./resetgeral.css";
 
 /*Carros*/
-@import "/wilsonautomoveis.io/css/carro.css";
+@import "/css/carro.css";
 
 /*Utilidades*/
-@import "/wilsonautomoveis.io/css/utilidades/cores.css"; /*Cores*/
+@import "/css/utilidades/cores.css"; /*Cores*/
 
-@import "/wilsonautomoveis.io/css/utilidades/tipografia.css"; /*Tipografia*/
+@import "/css/utilidades/tipografia.css"; /*Tipografia*/
 
-@import "/wilsonautomoveis.io/css/utilidades/classes.css"; /*classes*/
+@import "/css/utilidades/classes.css"; /*classes*/
+
+@import "/css/contato.css";
